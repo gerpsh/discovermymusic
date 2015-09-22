@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/d3-tip/index.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <!-- endbower -->
+  <script src="js/scatter.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Discover my Music</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <p>Music Profiles:</p>
+      <ul class="list-inline button-list">
+        <li>
+          <button id="party" class="pure-button">Party vs. Dull</button>
+        </li>
+        <li>
+          <button id="chill" class="pure-button">Chill vs. Hype</button>
+        </li>
+        <li>
+          <button id="hotness" class="pure-button">Hot vs. Cold</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <ul class='list-inline button-list'>
+        <li>
+          <p id="now-playing">Now Playing: <span id="now-playing-title">N/A</span></p>
+        </li>
+        <li>
+          <button id="play-music" class="pure-button">Play</button>
+        </li>
+        <li>
+          <button id="pause-music" class="pure-button">Pause</button>
+        </li>
+        <li>
+          <button id="jump" class="pure-button">Jump Ahead</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div id="chart1" class="col-md-10 col-md-offset-1">
+    </div>
+  </div>
+</body>
+</html>

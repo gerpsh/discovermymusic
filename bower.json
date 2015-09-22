@@ -1,0 +1,27 @@
+{
+  "name": "music-viz",
+  "version": "0.0.0",
+  "authors": [
+    "gerpsh <gps5012@gmail.com>"
+  ],
+  "description": "Interactive viz of my music collection",
+  "keywords": [
+    "music",
+    "visualization"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "d3": "~3.5.6",
+    "d3-tip": "~0.6.7",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
