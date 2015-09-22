@@ -1,0 +1,4 @@
+node_modules/
+.sass-cache/
+venv/
+.DS_Store
